@@ -50,3 +50,7 @@ do_install() {
     install -d ${D}${systemd_system_unitdir}
     install -m 0644 ${WORKDIR}/picam.service ${D}${systemd_system_unitdir}/picam.service
 }
+
+do_configure() {
+    :
+}

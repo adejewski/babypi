@@ -47,13 +47,13 @@ CONF_VERSION = "2"
 # Machine to build image for
 MACHINE = "raspberrypi0-2w-64"
 
+# Default init manager
+INIT_MANAGER = "systemd"
+
 # This one is needed to prevent kernel panic at boot time
 # Needed for raspberrypi5
 # MACHINE = "raspberrypi5"
 # RPI_KERNEL_DEVICETREE_OVERLAYS:append = " overlays/bcm2712d0.dtbo"
-
-# Default init manager
-INIT_MANAGER = "systemd"
 
 # Accept synaptics-killswitch license to build WiFi/Bluetooth drivers
 LICENSE_FLAGS_ACCEPTED = "synaptics-killswitch"
