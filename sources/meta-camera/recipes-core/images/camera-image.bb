@@ -4,6 +4,7 @@ LICENSE = "MIT"
 IMAGE_INSTALL:append = " \
     mediamtx \
     wpa-supplicant \
+    avahi-daemon \
 "
 
 # Enable SSH server
