@@ -1,0 +1,13 @@
+[Unit]
+Description=Picam
+After=network.target
+
+[Service]
+ExecStart=/usr/bin/mediamtx /etc/mediamtx/mediamtx.yml
+Restart=always
+RestartSec=5s
+User=root
+
+[Install]
+WantedBy=multi-user.target
+
