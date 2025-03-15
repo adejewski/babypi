@@ -55,7 +55,7 @@ Or
 ```sh
 sudo dmesg
 ```
-The flashing process should be quick (~400MB image).
+The flashing process should be quick (<500MB image).
 
 ### **5. Start the Raspberry Pi**
 * Insert the SD card into the Raspberry Pi.
