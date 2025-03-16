@@ -62,10 +62,9 @@ LICENSE_FLAGS_ACCEPTED = "synaptics-killswitch"
 VIDEO_CAMERA = "1"
 RASPBERRYPI_CAMERA_V3 = "1"
 
+hostname:pn-base-files = "babypi"
+
 DISTRO_FEATURES:append = " wifi"
-IMAGE_INSTALL:append = " \
-    wpa-supplicant \
-"
 
 WIFI_SSID="YOUR_SSID"
 WIFI_PSK="YOUR_PASSWORD"

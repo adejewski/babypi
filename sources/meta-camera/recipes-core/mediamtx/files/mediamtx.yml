@@ -202,7 +202,7 @@ hlsDirectory: ''
 # Enable publishing and reading streams with the WebRTC protocol.
 webrtc: yes
 # Address of the WebRTC HTTP listener.
-webrtcAddress: :80
+webrtcAddress: :8889
 # Enable TLS/HTTPS on the WebRTC server.
 webrtcEncryption: no
 # Path to the server key.
@@ -571,8 +571,9 @@ paths:
   # example:
   # my_camera:
   #   source: rtsp://my_camera
+  cam:
+    source: rpiCamera
 
   # Settings under path "all_others" are applied to all paths that
   # do not match another entry.
   all_others:
-    source: rpiCamera
