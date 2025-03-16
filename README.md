@@ -1,6 +1,12 @@
 # BabyPI
 This project creates a nanny cam using a Raspberry Pi Zero 2 W with Camera Module v3. It generates a custom Linux image using Yocto, including all necessary packages for low-latency video streaming. The stream is accessible via a web browser on your phone or PC.
 
+Hardware photo, I had to cut the hole for the camera myself:
+![Hardware photo](readme-hardware.jpeg "Hardware")
+
+Video stream:
+![Video stream](readme-output.png "Video stream")
+
 ## Prerequisites
 Before building, ensure you have:
 - A **Raspberry Pi Zero 2 W** with **Camera Module v3**
