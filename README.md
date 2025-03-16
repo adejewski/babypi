@@ -62,12 +62,4 @@ The flashing process should be quick (<500MB image).
 * Power it on and wait for it to connect to WiFi.
 
 ### **6. Access the Video Stream**
-To open the video stream, use:
-```sh
-sensible-browser http://<RPI_IP>:8889/cam
-```
-
-How to find the Raspberry Pi’s IP?
-* Check your router’s connected devices.
-* Run: `arp -a`
-* Use nmap: `nmap -sP 192.168.1.0/24`
+System uses avahi-daemon to easily find a device using mDNS. To access the video stream you simply need to go to website http://babypi.local:8889/cam
