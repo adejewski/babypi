@@ -5,6 +5,7 @@ IMAGE_INSTALL:append = " \
     mediamtx \
     wpa-supplicant \
     avahi-daemon \
+    tzdata \
 "
 
 # Enable SSH server

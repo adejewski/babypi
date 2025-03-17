@@ -66,6 +66,7 @@ hostname:pn-base-files = "babypi"
 
 DISTRO_FEATURES:append = " wifi"
 
+TIMEZONE = "Europe/Warsaw"
 WIFI_SSID="YOUR_SSID"
 WIFI_PSK="YOUR_PASSWORD"
 WPA_COUNTRY="YOUR_COUNTRY"
