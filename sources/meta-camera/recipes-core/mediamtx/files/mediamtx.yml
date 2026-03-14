@@ -581,10 +581,10 @@ pathDefaults:
   # Manual flicker correction period, in microseconds.
   rpiCameraFlickerPeriod: 0
   # Enables printing text on each frame.
-  rpiCameraTextOverlayEnable: false
+  rpiCameraTextOverlayEnable: true
   # Text that is printed on each frame.
   # format is the one of the strftime() function.
-  rpiCameraTextOverlay: '%Y-%m-%d %H:%M:%S - MediaMTX'
+  rpiCameraTextOverlay: '%Y-%m-%d %H:%M:%S - BabyPI'
   # Codec. Available values: auto, hardwareH264, softwareH264
   rpiCameraCodec: auto
   # Period between IDR frames
