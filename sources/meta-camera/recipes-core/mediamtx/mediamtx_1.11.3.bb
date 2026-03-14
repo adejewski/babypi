@@ -7,7 +7,7 @@ LIC_FILES_CHKSUM = "file://LICENSE;md5=77fd2623bd5398430be5ce60489c2e81"
 inherit systemd
 
 SRC_URI = "git://${GO_IMPORT};branch=main;protocol=https"
-SRCREV = "6cd7487857dc6ee8b82cff1f45c900ad7e3d6362"
+SRCREV = "b66efd66da92ce475f3bf2a229efa56724f3fa64"
 
 SRC_URI += "file://mediamtx.yml"
 SRC_URI += "file://picam.service"
